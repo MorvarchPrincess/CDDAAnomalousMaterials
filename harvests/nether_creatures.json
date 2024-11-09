@@ -1,0 +1,38 @@
+[{
+  "id": "mi-go",
+  "//": "Standard migo",
+  "type": "harvest",
+  "copy-from": "mi-go",
+  "message": "<mi-go_harvest>",
+  "extend": { "entries": [ { "drop": "biochip_basic", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+},
+{
+  "id": "mi-go-large",
+  "//": "The bigger more dangerous migo",
+  "type": "harvest",
+  "copy-from": "mi-go",
+  "message": "<mi-go_harvest>",
+  "extend": { "entries": [ { "drop": "biochip_moderate", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+},
+{
+   "id": "mi-go-huge",
+    "//": "The real killer migo",
+    "type": "harvest",
+    "copy-from": "mi-go",
+    "message": "<mi-go_harvest>",
+    "extend": { "entries": [ { "drop": "biochip_advanced", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "flaming_eye",
+    "//": "no bones or organs",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
+      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
+      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
+      { "drop": "flaming_eye_lens", "base_num": [ 0, 2 ], "type": "bone" },
+      { "drop": "monolith_ingredient_advanced", "base_num": [ 0, 2 ], "type": "bone" }
+    ]
+  }
+]

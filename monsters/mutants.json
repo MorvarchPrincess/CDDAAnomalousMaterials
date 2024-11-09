@@ -1,0 +1,64 @@
+[
+  {
+    "id": "mon_alpha_razorclaw",
+    "copy-from": "mon_alpha_razorclaw",
+    "harvest": "huge_mutant_shellfish"
+  },
+  {
+    "id": "mon_razorclaw",
+    "copy-from": "mon_razorclaw",
+    "harvest": "large_mutant_shellfish"
+  },
+  {
+    "id": "mon_giant_crayfish",
+    "copy-from": "mon_giant_crayfish",
+    "harvest": "standard_mutant_shellfish"
+  },
+  {
+    "id": "mon_crayfish_giant_larva",
+    "copy-from": "mon_crayfish_giant_larva",
+    "harvest": "standard_mutant_shellfish"
+  },
+  {
+    "id": "mon_crayfish_mega",
+    "copy-from": "mon_crayfish_mega",
+    "harvest": "huge_mutant_shellfish"
+  },
+  {
+    "id": "mon_snail_giant",
+    "copy-from": "mon_snail_giant",
+    "harvest": "mutant_mollusk_large"
+  },
+  {
+    "id": "mon_slug_giant",
+    "copy-from": "mon_slug_giant",
+    "harvest": "mutant_mollusk_large"
+  },
+  {
+    "id": "mon_sludge_crawler",
+    "copy-from": "mon_sludge_crawler",
+    "harvest": "mutant_mollusk_huge"
+  },
+  {
+    "id": "mon_rattlesnake_mega",
+    "copy-from": "mon_rattlesnake_mega",
+    "harvest": "mutant_animal_huge_noskin"
+  },
+  {
+    "id": "mon_strange_megafrog",
+    "copy-from": "mon_strange_megafrog",
+    "harvest": "mutant_animal_huge_noskin"
+  },
+  {
+    "id": "mon_odd_megafrog",
+    "copy-from": "mon_odd_megafrog",
+    "harvest": "mutant_animal_huge_noskin"
+  },
+  {
+    "id": "mon_foul_megafrog",
+    "copy-from": "mon_foul_megafrog",
+    "harvest": "mutant_animal_huge_noskin"
+  }
+]
+
+

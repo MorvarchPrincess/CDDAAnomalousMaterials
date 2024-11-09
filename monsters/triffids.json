@@ -1,0 +1,39 @@
+[
+  {
+    "id": "mon_biollante_sprig",
+    "copy-from": "mon_biollante_sprig",
+    "harvest": "biollante_small"
+  },
+  {
+    "id": "mon_biollante_sprout",
+    "copy-from": "mon_biollante_sprout",
+    "harvest": "biollante_small"
+  },
+  {
+    "id": "mon_triffid_sprig",
+    "copy-from": "mon_triffid_sprig",
+    "harvest": "triffid_tiny"
+  },
+  {
+    "id": "mon_triffid_young",
+    "copy-from": "mon_triffid_young",
+    "harvest": "triffid_paralytic_small"
+  },
+  {
+    "id": "mon_triffid_heart",
+    "copy-from": "mon_triffid_heart",
+    "harvest": "triffid_heart"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+

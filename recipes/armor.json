@@ -1,0 +1,464 @@
+[
+  {
+  "result": "r_armguard_chitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "390 m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_articulation" }
+  ],
+  "using": [ [ "r_armor_chitin", 3 ], [ "tailoring_leather_small", 2 ] ]
+},
+{
+  "result": "xs_r_armguard_chitin",
+  "type": "recipe",
+  "copy-from": "r_armguard_chitin",
+  "time": "390 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_chitin", 2 ], [ "tailoring_leather_small", 1 ] ]
+},
+{
+  "result": "xl_r_armguard_chitin",
+  "type": "recipe",
+  "copy-from": "r_armguard_chitin",
+  "time": "440 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_chitin", 4 ], [ "tailoring_leather_small", 3 ] ]
+},
+{
+  "result": "r_armguard_acidchitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 6,
+  "skills_required": [ [ "fabrication", 3 ], [ "chemistry", 2 ] ],
+  "time": "390 m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 5 ] ],
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_acidchitin", 3 ], [ "tailoring_leather_small", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_articulation" }
+  ]
+},
+{
+  "result": "xs_r_armguard_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_armguard_acidchitin",
+  "time": "390 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_acidchitin", 2 ], [ "tailoring_leather_small", 1 ] ]
+},
+{
+  "result": "xl_r_armguard_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_armguard_acidchitin",
+  "time": "440 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_acidchitin", 4 ], [ "tailoring_leather_small", 3 ] ]
+},
+{
+  "result": "r_boots_chitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 4,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "12 h",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 3 ] ],
+  "using": [ [ "r_armor_chitin", 18 ], [ "strap_small", 4 ], [ "clasps", 2 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+  "proficiencies": [
+    { "proficiency": "prof_cobbling" },
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_articulation" }
+  ]
+},
+{
+  "result": "xs_r_boots_chitin",
+  "type": "recipe",
+  "copy-from": "r_boots_chitin",
+  "time": "12 h",
+  "using": [ [ "r_armor_chitin", 13 ], [ "strap_small", 3 ], [ "clasps", 1 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ]
+},
+{
+  "result": "xl_r_boots_chitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "copy-from": "r_boots_chitin",
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+  "using": [ [ "r_armor_chitin", 23 ], [ "strap_small", 6 ], [ "clasps", 2 ] ],
+  "time": "13 h 30 m"
+},
+{
+  "result": "r_boots_acidchitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ], [ "chemistry", 2 ] ],
+  "time": "16 h",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "using": [ [ "r_armor_acidchitin", 18 ], [ "strap_small", 4 ], [ "clasps", 2 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+  "proficiencies": [
+    { "proficiency": "prof_cobbling" },
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_articulation" }
+  ]
+},
+{
+  "result": "xs_r_boots_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_boots_acidchitin",
+  "time": "16 h",
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+  "using": [ [ "r_armor_acidchitin", 13 ], [ "strap_small", 3 ], [ "clasps", 1 ] ]
+},
+{
+  "result": "xl_r_boots_acidchitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "copy-from": "r_boots_acidchitin",
+  "using": [ [ "r_armor_acidchitin", 23 ], [ "strap_small", 6 ], [ "clasps", 2 ] ],
+  "time": "18 h",
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ]
+},
+{
+  "result": "r_gauntlets_chitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 4,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "10 h",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 3 ] ],
+  "reversible": true,
+  "using": [ [ "r_armor_chitin", 8 ], [ "strap_small", 2 ], [ "clasps", 2 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_articulation" }
+  ]
+},
+{
+  "result": "xs_r_gauntlets_chitin",
+  "type": "recipe",
+  "copy-from": "r_gauntlets_chitin",
+  "time": "10 h",
+  "using": [ [ "r_armor_chitin", 6 ], [ "strap_small", 1 ], [ "clasps", 1 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ]
+},
+{
+  "result": "xl_r_gauntlets_chitin",
+  "type": "recipe",
+  "copy-from": "r_gauntlets_chitin",
+  "time": "11 h 15 m",
+  "using": [ [ "r_armor_chitin", 12 ], [ "strap_small", 2 ], [ "clasps", 2 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ]
+},
+{
+  "result": "r_gauntlets_acidchitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ], [ "chemistry", 2 ] ],
+  "time": "12 h",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "reversible": true,
+  "using": [ [ "r_armor_acidchitin", 8 ], [ "strap_small", 2 ], [ "clasps", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_articulation" }
+  ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+  "components": [ [ [ "cordage_superior", 1, "LIST" ] ] ]
+},
+{
+  "result": "xs_r_gauntlets_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_gauntlets_acidchitin",
+  "time": "12 h",
+  "using": [ [ "r_armor_acidchitin", 6 ], [ "strap_small", 1 ], [ "clasps", 1 ] ],
+  "components": [ [ [ "cordage_superior", 2, "LIST" ] ] ]
+},
+{
+  "result": "xl_r_gauntlets_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_gauntlets_acidchitin",
+  "time": "13 h 30 m",
+  "using": [ [ "r_armor_acidchitin", 12 ], [ "strap_small", 2 ], [ "clasps", 2 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+  "components": [ [ [ "cordage_superior", 2, "LIST" ] ] ]
+},
+{
+  "result": "r_helmet_chitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 6,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "2 h",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 5 ] ],
+  "using": [ [ "r_armor_chitin", 12 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_fibers" }
+  ]
+},
+{
+  "result": "xs_r_helmet_chitin",
+  "type": "recipe",
+  "copy-from": "r_helmet_chitin",
+  "time": "1 h 30 m",
+  "using": [ [ "armor_chitin", 9 ] ]
+},
+{
+  "result": "xl_r_helmet_chitin",
+  "type": "recipe",
+  "copy-from": "r_helmet_chitin",
+  "time": "2 h 50 m",
+  "using": [ [ "armor_chitin", 17 ] ]
+},
+{
+  "result": "r_helmet_acidchitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 7,
+  "book_learn": [ [ "textbook_arthropod", 6 ] ],
+  "skills_required": [ [ "fabrication", 4 ], [ "chemistry", 2 ] ],
+  "time": "3 h",
+  "autolearn": true,
+  "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+  "components": [ [ [ "cordage_superior", 1, "LIST" ] ], [ [ "r_armor_acidchitin", 12 ] ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_fibers" }
+  ]
+},
+{
+  "result": "xs_r_helmet_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_helmet_acidchitin",
+  "time": "3 h",
+  "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+  "components": [ [ [ "cordage_superior", 1, "LIST" ] ], [ [ "r_armor_acidchitin", 9 ] ] ]
+},
+{
+  "result": "xl_r_helmet_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_helmet_acidchitin",
+  "time": "3 h 20 m",
+  "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+  "components": [ [ [ "cordage_superior", 2, "LIST" ] ], [ [ "r_armor_acidchitin", 17 ] ] ]
+},
+{
+  "result": "r_legguard_chitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "520 m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "byproducts": [ [ "scrap_leather", 92 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_articulation" }
+  ],
+  "using": [ [ "r_armor_chitin", 6 ], [ "tailoring_leather_small", 4 ] ]
+},
+{
+  "result": "xs_r_legguard_chitin",
+  "type": "recipe",
+  "copy-from": "r_legguard_chitin",
+  "time": "520 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_chitin", 5 ], [ "tailoring_leather_small", 3 ] ]
+},
+{
+  "result": "xl_r_legguard_chitin",
+  "type": "recipe",
+  "copy-from": "legguard_chitin",
+  "time": "580 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_chitin", 7 ], [ "tailoring_leather_small", 5 ] ]
+},
+{
+  "result": "r_legguard_acidchitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 6,
+  "skills_required": [ [ "fabrication", 3 ], [ "chemistry", 2 ] ],
+  "time": "520 m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 5 ] ],
+  "byproducts": [ [ "scrap_leather", 92 ] ],
+  "using": [ [ "r_armor_acidchitin", 6 ], [ "tailoring_leather_small", 4 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_articulation" }
+  ]
+},
+{
+  "result": "xs_r_legguard_acidchitin",
+  "type": "recipe",
+  "copy-from": "legguard_acidchitin",
+  "time": "520 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_acidchitin", 5 ], [ "tailoring_leather_small", 3 ] ]
+},
+{
+  "result": "xl_r_legguard_acidchitin",
+  "type": "recipe",
+  "copy-from": "legguard_acidchitin",
+  "time": "580 m",
+  "byproducts": [ [ "scrap_leather", 4 ] ],
+  "using": [ [ "r_armor_acidchitin", 7 ], [ "tailoring_leather_small", 5 ] ]
+},
+{
+  "result": "r_armor_chitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 7,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "12 h",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_tailor", 5 ], [ "tailor_portfolio", 5 ], [ "textbook_arthropod", 6 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_articulation" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_closures" },
+    { "proficiency": "prof_leatherworking_basic" }
+  ],
+  "using": [ [ "r_armor_chitin", 72 ] ]
+},
+{
+  "result": "xs_r_armor_chitin",
+  "type": "recipe",
+  "copy-from": "r_armor_chitin",
+  "time": "9 h",
+  "using": [ [ "r_armor_chitin", 54 ] ]
+},
+{
+  "result": "xl_r_armor_chitin",
+  "type": "recipe",
+  "copy-from": "r_armor_chitin",
+  "time": "16 h",
+  "using": [ [ "r_armor_chitin", 96 ] ]
+},
+{
+  "result": "r_armor_acidchitin",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "tailor",
+  "difficulty": 8,
+  "skills_required": [ [ "fabrication", 3 ], [ "chemistry", 2 ] ],
+  "time": "8 h 20 m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 7 ] ],
+  "using": [ [ "cordage", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_articulation" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_closures" },
+    { "proficiency": "prof_leatherworking_basic" }
+  ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 } ],
+  "components": [ [ [ "r_armor_acidchitin", 72 ] ] ]
+},
+{
+  "result": "xs_r_armor_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_armor_acidchitin",
+  "time": "8 h 20 m",
+  "using": [ [ "cordage", 1 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 } ],
+  "components": [ [ [ "r_armor_acidchitin", 54 ] ] ]
+},
+{
+  "result": "xl_r_armor_acidchitin",
+  "type": "recipe",
+  "copy-from": "r_armor_acidchitin",
+  "time": "9 h 20m",
+  "using": [ [ "cordage", 3 ] ],
+  "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 } ],
+  "components": [ [ [ "r_armor_acidchitin", 96 ] ] ]
+},
+{
+  "result": "goggles_flameeye",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HEAD",
+  "skill_used": "mechanics",
+  "difficulty": 2,
+  "skills_required": [ "fabrication", 1 ],
+  "time": "1 h",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_fabrication", 3 ], [ "welding_book", 3 ] ],
+  "components": [
+    [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ] ],
+    [ [ "flaming_eye_lens", 2 ] ],
+    [ [ "duct_tape", 40 ], [ "medical_tape", 40 ] ]
+  ],
+  "proficiencies": [ { "proficiency": "prof_plasticworking" } ]
+}
+]

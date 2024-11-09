@@ -1,0 +1,183 @@
+[{
+  "id": "mutant_bird",
+  "copy-from": "mutant_bird",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_bird_flightless",
+  "copy-from": "mutant_bird_flightless",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "standard_mutant_shellfish",
+  "copy-from": "mutant_shellfish",
+  "type": "harvest",
+  "message": "You crack open its hard shell to get at the flesh beneath.",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "large_mutant_shellfish",
+  "copy-from": "mutant_shellfish",
+  "type": "harvest",
+  "message": "You crack open its hard shell to get at the flesh beneath.",
+  "entries": [
+    { "drop": "mutant_meat", "type": "flesh", "mass_ratio": 0.32 },
+    { "drop": "mutant_blood", "type": "blood", "mass_ratio": 0.1 },
+    { "drop": "blood_mutagenic", "type": "blood", "mass_ratio": 0.025 },
+    { "drop": "r_chitin_piece", "type": "skin", "mass_ratio": 0.1 }
+  ]
+},
+{
+  "id": "huge_mutant_shellfish",
+  "copy-from": "mutant_shellfish",
+  "type": "harvest",
+  "message": "You crack open its hard shell to get at the flesh beneath.",
+  "entries": [
+    { "drop": "mutant_meat", "type": "flesh", "mass_ratio": 0.32 },
+    { "drop": "mutant_blood", "type": "blood", "mass_ratio": 0.1 },
+    { "drop": "blood_protean", "type": "blood", "mass_ratio": 0.025 },
+    { "drop": "r_chitin_piece", "type": "skin", "mass_ratio": 0.1 }
+  ]
+},
+{
+  "id": "mutant_fish",
+  "copy-from": "mutant_fish",
+  "type": "harvest",
+  "entries": [
+    { "drop": "mutant_meat", "type": "flesh", "mass_ratio": 0.38 },
+    { "drop": "mutant_blood", "type": "blood", "mass_ratio": 0.1 },
+    { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 },
+    { "drop": "mutant_liver", "type": "offal", "mass_ratio": 0.01 },
+    { "drop": "bone", "type": "bone", "mass_ratio": 0.1 }
+  ]
+},
+{
+  "id": "underground_acid",
+  "copy-from": "underground_acid",
+  "//": "acid blood type for underground or digging based creaturs.",
+  "type": "harvest",
+  "entries": [
+    { "drop": "blood_acid_underground", "type": "blood", "mass_ratio": 0.1 },
+    { "drop": "mutant_meat", "type": "flesh", "mass_ratio": 0.36 },
+    { "drop": "mutant_fat", "type": "flesh", "mass_ratio": 0.08 },
+    { "drop": "r_acidchitin_piece", "type": "bone", "mass_ratio": 0.06 },
+    { "drop": "blood_mutagenic", "type": "blood", "mass_ratio": 0.025 }
+  ]
+},
+{
+  "id": "mutant_meatslug",
+  "copy-from": "mutant_meatslug",
+  "//": "no bones or organs",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "kraken_large",
+  "copy-from": "kraken_large",
+  "//": "drops large stomach",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_mutagenic", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "kraken_queen",
+  "copy-from": "kraken_queen",
+  "//": "drops large stomach",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_protean", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_mollusk_large",
+  "copy-from": "mutant_mollusk",
+  "//": "no bones or organs, copied from mutant meatslug but may be expanded",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_mutagenic", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_mollusk_huge",
+  "copy-from": "mutant_mollusk",
+  "//": "no bones or organs, copied from mutant meatslug but may be expanded",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_protean", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_mollusk",
+  "copy-from": "mutant_mollusk",
+  "//": "no bones or organs, copied from mutant meatslug but may be expanded",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_mammal_large_fur",
+  "copy-from": "mutant_mammal_large_fur",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_mutagenic", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "tusked_moose_with_skull",
+  "copy-from": "tusked_moose_with_skull",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_protean", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "cerbearus_with_skulls",
+  "copy-from": "cerbearus_with_skulls",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_protean", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_mammal_fur",
+  "copy-from": "mutant_mammal_fur",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "dog_with_skull_fur_mutant",
+  "copy-from": "dog_with_skull_fur_mutant",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "spideer_with_skull",
+  "type": "harvest",
+  "copy-from": "spideer_with_skull",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "raccoon_with_skull_mutant",
+  "type": "harvest",
+  "copy-from": "raccoon_with_skull_mutant",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "human_fur",
+  "type": "harvest",
+  "copy-from": "human_fur",
+  "extend": { "entries": [ { "drop": "blood_mutagenic", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_human",
+  "type": "harvest",
+  "copy-from": "mutant_human",
+  "extend": { "entries": [ { "drop": "blood_protean", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_animal_large_noskin",
+  "type": "harvest",
+  "copy-from": "mutant_animal_large_noskin",
+ "extend": { "entries": [ { "drop": "blood_mutagenic", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_animal_huge_noskin",
+  "type": "harvest",
+  "copy-from": "mutant_animal_large_noskin",
+  "extend": { "entries": [ { "drop": "blood_protean", "type": "blood", "mass_ratio": 0.025 }  ] }
+},
+{
+  "id": "mutant_mammal_small_fur",
+  "type": "harvest",
+  "copy-from": "mutant_animal_large_noskin",
+  "extend": { "entries": [ { "drop": "blood_writhing", "type": "blood", "mass_ratio": 0.025 }  ] }
+}
+]

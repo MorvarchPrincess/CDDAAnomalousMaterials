@@ -1,0 +1,116 @@
+[
+  {
+    "id": "nested_r_chitin_helmets",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "name": "reinforced chitinous helmets",
+    "description": "Recipes related to constructing durable helmets from reinforced chitin.",
+    "skill_used": "tailor",
+    "nested_category_data": [
+      "r_helmet_acidchitin",
+      "xs_r_helmet_acidchitin",
+      "xl_r_helmet_acidchitin",
+      "r_helmet_chitin",
+      "xs_r_helmet_chitin",
+      "xl_r_helmet_chitin"
+    ],
+    "difficulty": 6
+  },
+  {
+    "id": "nested_r_chitin_bodyarmor",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "name": "reinforced chitinous armor",
+    "description": "Recipes related to constructing durable armor from reinforced chitin that covers the body.",
+    "skill_used": "tailor",
+    "nested_category_data": [
+      "r_armor_acidchitin",
+      "xs_r_armor_acidchitin",
+      "xl_r_armor_acidchitin",
+      "r_armor_chitin",
+      "xs_r_armor_chitin",
+      "xl_r_armor_chitin"
+    ],
+    "difficulty": 7
+  },
+  {
+    "id": "nested_r_chitin_armguards",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_ARMS",
+    "name": "reinforced chitinous arm guards",
+    "description": "Recipes related to constructing durable armguards from reinforced chitin.",
+    "skill_used": "tailor",
+    "nested_category_data": [
+      "r_armguard_chitin",
+      "xs_r_armguard_chitin",
+      "xl_r_armguard_chitin",
+      "r_armguard_acidchitin",
+      "xs_r_armguard_acidchitin",
+      "xl_r_armguard_acidchitin"
+    ],
+    "difficulty": 5
+  },
+  {
+    "id": "nested_r_chitin_legguards",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "name": "reinforced chitinous leg guards",
+    "description": "Recipes related to constructing durable leg guards from reinforced chitin.",
+    "skill_used": "tailor",
+    "nested_category_data": [
+      "r_legguard_chitin",
+      "xs_r_legguard_chitin",
+      "xl_r_legguard_chitin",
+      "r_legguard_acidchitin",
+      "xs_r_legguard_acidchitin",
+      "xl_r_legguard_acidchitin"
+    ],
+    "difficulty": 5
+  },
+  {
+    "id": "nested_r_chitin_gauntlets",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "name": "reinforced chitinous gauntlets",
+    "description": "Recipes related to constructing durable gauntlets from reinforced chitin.",
+    "skill_used": "tailor",
+    "nested_category_data": [
+      "r_gauntlets_chitin",
+      "xs_r_gauntlets_chitin",
+      "xl_r_gauntlets_chitin",
+      "r_gauntlets_acidchitin",
+      "xs_r_gauntlets_acidchitin",
+      "xl_r_gauntlets_acidchitin"
+    ],
+    "difficulty": 4
+  },
+  {
+    "id": "nested_r_chitinous_boots",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "name": "reinforced chitinous boots",
+    "description": "Recipes related to constructing durable boots from reinforced chitin.",
+    "skill_used": "tailor",
+    "nested_category_data": [
+      "r_boots_chitin",
+      "xs_r_boots_chitin",
+      "xl_r_boots_chitin",
+      "r_boots_acidchitin",
+      "xs_r_boots_acidchitin",
+      "xl_r_boots_acidchitin"
+    ],
+    "difficulty": 4
+  }
+]

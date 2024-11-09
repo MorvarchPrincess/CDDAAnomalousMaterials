@@ -1,0 +1,119 @@
+[{
+  "id": "flesh_golem",
+  "copy-from": "flesh_golem",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+},
+{
+  "id": "jabberwock",
+  "copy-from": "jabberwock",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "sinew_hulk", "type": "bone", "mass_ratio": 0.00035 }  ] },
+  "//": "what, you thought jabberwocks only had one heart?"
+},
+  {
+    "id": "zombie_leather_brute",
+    "//": "any zombie that might drop leather. mostly animals.",
+    "copy-from": "zombie_leather_brute",
+    "type": "harvest",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_brute",
+    "//": "your bog standard debug zombie",
+    "copy-from": "zombie_brute",
+    "type": "harvest",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_humanoid_brute",
+    "//": "your bog standard humanoid zombie",
+    "type": "harvest",
+    "copy-from": "zombie_humanoid_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_animal_brute",
+    "//": "any zombie animal that does not drop leather",
+    "type": "harvest",
+    "copy-from": "zombie_animal_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_humanoid_acid_brute",
+    "//": "acid blood zombie",
+    "type": "harvest",
+    "copy-from": "zombie_humanoid_acid_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_animal_acid_brute",
+    "//": "any zombie animal with acid blood, their fur or hide being too damaged to salvage.",
+    "type": "harvest",
+    "copy-from": "zombie_animal_acid_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_dog_acid_brute",
+    "//": "zombie dog with acid blood, their fur being too damaged to salvage.",
+    "type": "harvest",
+    "copy-from": "zombie_dog_acid_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_screamer_brute",
+    "//": "emaciated and loud zombies",
+    "type": "harvest",
+    "copy-from": "zombie_screamer_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_grabber_brute",
+    "//": "zombie with long gangly arms",
+    "type": "harvest",
+    "copy-from": "zombie_grabber_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_humanoid_electric_brute",
+    "//": "zapper humanoid zombie",
+    "type": "harvest",
+    "copy-from": "zombie_humanoid_electric_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_animal_electric_brute",
+    "//": "zapper animal zombie",
+    "type": "harvest",
+    "copy-from": "zombie_animal_electric_brute",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_hulk",
+    "//": "very big zombie",
+    "type": "harvest",
+    "copy-from": "zombie_hulk",
+    "extend": { "entries": [ { "drop": "sinew_hulk", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_pupating_hulk",
+    "//": "very big zombie with big holes in it",
+    "type": "harvest",
+    "copy-from": "zombie_pupating_hulk",
+    "extend": { "entries": [ { "drop": "sinew_hulk", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_kevlar",
+    "//": "zombies with Kevlar infused into their skin",
+    "type": "harvest",
+    "copy-from": "zombie_kevlar",
+    "extend": { "entries": [ { "drop": "sinew_brute", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  },
+  {
+    "id": "zombie_kevlar_hulk",
+    "//": "hulks with Kevlar infused into their skin",
+    "type": "harvest",
+    "copy-from": "zombie_kevlar_hulk",
+    "extend": { "entries": [ { "drop": "sinew_hulk", "type": "bone", "mass_ratio": 0.00035 }  ] }
+  }
+]

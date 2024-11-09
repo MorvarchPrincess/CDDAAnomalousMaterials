@@ -1,0 +1,70 @@
+[
+  {
+  "type": "material",
+  "id": "r_chitin",
+  "name": "Reinforced Chitin",
+  "density": 1.45,
+  "specific_heat_liquid": 4.186,
+  "specific_heat_solid": 2.108,
+  "latent_heat": 333,
+  "chip_resist": 14,
+  "breathability": "GOOD",
+  "wind_resist": 90,
+  "dmg_adj": [ "scratched", "cut", "cracked", "shattered" ],
+  "bash_dmg_verb": "cracked",
+  "cut_dmg_verb": "chipped",
+  "repaired_with": "r_chitin_piece",
+  "salvaged_into": "r_chitin_piece",
+  "burn_data": [
+    { "fuel": 0, "smoke": 0, "burn": 0.0001 },
+    { "fuel": 0.2, "smoke": 3, "burn": 0.005, "volume_per_turn": "200 ml" },
+    { "fuel": 0.35, "smoke": 5, "burn": 0.015, "volume_per_turn": "200 ml" }
+  ],
+  "burn_products": [ [ "corpse_ash", 0.035 ] ],
+  "resist": { "bash": 2.5, "cut": 4, "acid": 6, "heat": 2.5, "bullet": 1.4 },
+  "repair_difficulty": 5
+},
+{
+  "type": "material",
+  "id": "r_acidchitin",
+  "name": "Reinforced Biosilicified Chitin",
+  "density": 3,
+  "specific_heat_liquid": 4.186,
+  "specific_heat_solid": 2.108,
+  "latent_heat": 333,
+  "chip_resist": 8,
+  "breathability": "GOOD",
+  "salvaged_into": "r_acidchitin_piece",
+  "dmg_adj": [ "scratched", "cut", "cracked", "shattered" ],
+  "bash_dmg_verb": "cracked",
+  "cut_dmg_verb": "chipped",
+  "//": "Normal chitin has low but non-zero flammability according to the US NFPA.",
+  "burn_data": [
+    { "fuel": 0, "smoke": 0, "burn": 0.0001 },
+    { "fuel": 0.2, "smoke": 3, "burn": 0.005, "volume_per_turn": "200 ml" },
+    { "fuel": 0.35, "smoke": 5, "burn": 0.015, "volume_per_turn": "200 ml" }
+  ],
+  "burn_products": [ [ "corpse_ash", 0.035 ] ],
+  "resist": { "bash": 2.3, "cut": 3.7, "acid": 16, "heat": 4, "bullet": 1.2 },
+  "repair_difficulty": 8
+},
+
+{
+  "type": "material",
+  "id": "bone_plating",
+  "category": "spare_parts",
+  "price": 0,
+  "price_postapoc": 25,
+  "name": { "str": "Bone plating" },
+  "symbol": "=",
+  "color": "light_red",
+  "looks_like": "thread",
+  "description": "A large plate of bone removed from a creature with an ossified exoskeleton exoskeleton, can be used as a hard material.",
+  "material": [ "bone" ],
+  "volume": "250 ml",
+  "weight": "1 g",
+  "count": 10,
+  "stack_size": 200
+}
+
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "type": "tool_quality",
+    "id": "SHARPENING",
+    "name": "mana focusing"
+  },
+  {
+    "id": "basic_whetstone",
+    "type": "TOOL",
+    "name": { "str": "humming whetstone" },
+    "looks_like": "rock",
+    "description": "A whetstone, humming faintly with untapped potential. Can be used to sharpen created weapons",
+    "weight": "600 g",
+    "volume": "250 ml",
+    "longest_side": "20 cm",
+    "price": "200 USD",
+    "material": [ "monolith" ],
+    "symbol": "*",
+    "color": "light_gray",
+    "qualities": [ [ "SHARPENING", 1 ], [ "HAMMER", 1 ] ],
+    "flags": [ "BELT_CLIP" ],
+    "damage": { "damage_type": "bash", "amount": 7 }
+  },
+  {
+    "id": "moderate_whetstone",
+    "type": "TOOL",
+    "name": { "str": "resonant whetstone" },
+    "looks_like": "rock",
+    "description": "A whetstone, humming  with untapped power. Can be used to sharpen created weapons",
+    "weight": "600 g",
+    "volume": "250 ml",
+    "longest_side": "20 cm",
+    "price": "400 USD",
+    "material": [ "monolith" ],
+    "symbol": "*",
+    "color": "light_gray",
+    "qualities": [ [ "SHARPENING", 2 ], [ "HAMMER", 1 ] ],
+    "flags": [ "BELT_CLIP" ],
+    "damage": { "damage_type": "bash", "amount": 7 }
+  }
+]

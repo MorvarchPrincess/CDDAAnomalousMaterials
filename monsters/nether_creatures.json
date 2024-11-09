@@ -1,0 +1,138 @@
+[{
+  "id": "mon_mi_go_slaver",
+  "copy-from": "mon_mi_go_slaver",
+  "harvest": "mi-go-large"
+},
+{
+  "id": "mon_mi_go_surgeon",
+  "copy-from": "mon_mi_go_surgeon",
+  "harvest": "mi-go-large"
+},
+{
+  "id": "mon_mi_go_guard",
+  "copy-from": "mon_mi_go_guard",
+  "harvest": "mi-go-large"
+},
+{
+  "id": "mon_mi_go_myrmidon",
+  "copy-from": "mon_mi_go_myrmidon",
+  "harvest": "mi-go-huge"
+},
+{
+  "id": "mon_breather",
+  "copy-from": "mon_breather",
+  "death_drops": "monolith_ingredient_basic"
+},
+{
+  "id": "mon_breather_hub",
+  "copy-from": "mon_breather_hub",
+  "death_drops": "monolith_ingredient_basic"
+},
+{
+  "id": "mon_gracke",
+  "copy-from": "mon_gracke",
+  "death_drops": "monolith_ingredient_basic"
+},
+{
+  "id": "mon_human_snail",
+  "copy-from": "mon_human_snail",
+  "death_drops": "monolith_ingredient_basic"
+},
+{
+  "id": "mon_kreck",
+  "copy-from": "mon_kreck",
+  "death_drops": "monolith_ingredient_basic"
+},
+{
+  "id": "mon_blank",
+  "copy-from": "mon_blank",
+  "death_drops": "monolith_ingredient_basic"
+},
+{
+  "id": "mon_flaming_eye",
+  "copy-from": "mon_flaming_eye",
+  "harvest": "flaming_eye",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_amigara_horror",
+  "copy-from": "mon_amigara_horror",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_gozu",
+  "copy-from": "mon_gozu",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_hunting_horror",
+  "copy-from": "mon_hunting_horror",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_flying_polyp",
+  "copy-from": "mon_flying_polyp",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_twisted_body",
+  "copy-from": "mon_twisted_body",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_yugg",
+  "copy-from": "mon_yugg",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_star_vampire",
+  "copy-from": "mon_star_vampire",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_star_vampire_coiling",
+  "copy-from": "mon_star_vampire_coiling",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_unseen_hunter",
+  "copy-from": "mon_unseen_hunter",
+  "death_drops": "monolith_ingredient_advanced"
+},
+{
+  "id": "mon_shrapnel_swarm",
+  "copy-from": "mon_shrapnel_swarm",
+  "death_drops": "monolith_ingredient_master"
+},
+{
+  "id": "mon_void_spider",
+  "copy-from": "mon_void_spider",
+  "death_drops": "monolith_ingredient_master"
+},
+{
+  "id": "mon_darkman",
+  "copy-from": "mon_darkman",
+  "death_drops": "monolith_ingredient_master"
+},
+{
+  "id": "mon_shoggoth",
+  "copy-from": "mon_shoggoth",
+  "death_drops": "monolith_ingredient_master"
+},
+{
+  "id": "mon_tindalos",
+  "copy-from": "mon_tindalos",
+  "death_drops": "monolith_ingredient_master"
+},
+{
+  "id": "mon_hound_tindalos",
+  "copy-from": "mon_hound_tindalos",
+  "death_drops": "monolith_ingredient_master"
+}
+]
+
+
+
+
+
+

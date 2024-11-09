@@ -1,0 +1,42 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_MONSTERCRAFTS",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_MONSTER_WEAPONS",
+      "CSC_MONSTER_ARMOR",
+      "CSC_MONSTER_TOOLS"
+    ]
+  },
+  {
+    "id": "nested_razorclaw_onehanders",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_*",
+    "subcategory": "CSC_*_NESTED",
+    "name": "razorclaw war-axes",
+    "description": "Recipes related to constructing various sizes of chain sleeves.",
+    "skill_used": "fabrication",
+    "nested_category_data": [ "qt_chainmail_arms", "xs_qt_chainmail_arms", "xl_qt_chainmail_arms" ],
+    "difficulty": 5
+  },
+  {
+    "id": "nested_all_chainmail_arms",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_ARMS",
+    "name": "razorclaw weapons",
+    "description": "Recipes related to constructing various sizes of chain sleeves.",
+    "skill_used": "fabrication",
+    "nested_category_data": [
+      "nested_lc_chainmail_arms",
+      "nested_mc_chainmail_arms",
+      "nested_hc_chainmail_arms",
+      "nested_ch_chainmail_arms",
+      "nested_qt_chainmail_arms"
+    ],
+    "difficulty": 7
+  },
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "SPELL",
+    "id": "razorclaw_weapon_noise",
+    "name": { "str": "Razorclaw axe shriek" },
+    "description": "Noise accompanying sonic damage.",
+    "message": "Whrrrrrr!",
+    "sound_description": "a loud shriek",
+    "sound_type": "combat",
+    "sound_ambient": true,
+    "sound_id": "misc",
+    "sound_variant": "shockwave",
+    "flags": [ "NO_EXPLOSION_SFX" ],
+    "min_damage": 15,
+    "max_damage": 15,
+    "valid_targets": [ "self" ],
+    "shape": "blast",
+    "effect": "noise"
+  },
+  {
+    "type": "SPELL",
+    "id": "razorclaw_weapon_noise_large",
+    "name": { "str": "Razorclaw hammer shriek" },
+    "description": "Noise accompanying sonic damage.",
+    "message": "WHRRRR!",
+    "sound_description": "a deafening shriek",
+    "sound_type": "combat",
+    "sound_ambient": true,
+    "sound_id": "misc",
+    "sound_variant": "shockwave",
+    "flags": [ "NO_EXPLOSION_SFX" ],
+    "min_damage": 30,
+    "max_damage": 30,
+    "valid_targets": [ "self" ],
+    "shape": "blast",
+    "effect": "noise"
+  }
+]

@@ -1,0 +1,527 @@
+[
+{
+  "id": "r_armguard_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of reinforced chitin arm guards", "str_pl": "pairs of reinforced chitin arm guards" },
+  "description": "A pair of arm guards made from the exoskeletons of giant insects.  Durable, and even lighter than standard chitin.",
+  "weight": "292 g",
+  "volume": "2500 ml",
+  "price": 20000,
+  "price_postapoc": 750,
+  "to_hit": 1,
+  "material": [ "r_chitin" ],
+  "symbol": "[",
+  "looks_like": "armguard_hard",
+  "color": "green",
+  "warmth": 10,
+  "material_thickness": 3,
+  "environmental_protection": 2,
+  "flags": [ "STURDY", "OUTER", "BLOCK_WHILE_WORN", "WATER_FRIENDLY" ],
+  "armor": [
+    {
+      "covers": [ "arm_l", "arm_r" ],
+      "encumbrance": 2,
+      "coverage": 90,
+      "cover_melee": 90,
+      "cover_ranged": 90,
+      "cover_vitals": 50,
+      "specifically_covers": [ "arm_lower_r", "arm_lower_l", "arm_elbow_r", "arm_elbow_l" ]
+    }
+  ]
+},
+{
+  "id": "xl_r_armguard_chitin",
+  "copy-from": "r_armguard_chitin",
+  "looks_like": "r_armguard_chitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced chitin arm guards", "str_pl": "pairs of XL reinforced chitin arm guards" },
+  "description": "A pair of arm guards made from the exoskeletons of insects.  Durable, and even lighter than standard chitin.  Larger than average.",
+  "proportional": { "weight": 1.25, "volume": 1.23 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_armguard_chitin",
+  "type": "ARMOR",
+  "copy-from": "r_armguard_chitin",
+  "looks_like": "r_armguard_chitin",
+  "name": { "str": "pair of XS reinforced chitin arm guards", "str_pl": "pairs of XS reinforced chitin arm guards" },
+  "description": "A pair of arm guards made from the exoskeletons of insects.  Durable, and even lighter than standard chitin.  Smaller than average.",
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_armguard_acidchitin",
+  "copy-from": "r_armguard_chitin",
+  "looks_like": "r_armguard_chitin",
+  "type": "ARMOR",
+  "price_postapoc": 1250,
+  "name": { "str": "pair of reinforced biosilicified chitin arm guards", "str_pl": "pairs of reinforced biosilicified chitin arm guards" },
+  "description": "A pair of arm guards crafted from the carefully cleaned and pruned biosilicified exoskeletons of acidic ants.  Acid-resistant but brittle. Durable, and even lighter than standard chitin.",
+  "material": [ "r_acidchitin" ],
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
+  "material_thickness": 4
+},
+{
+  "id": "xl_r_armguard_acidchitin",
+  "copy-from": "r_armguard_acidchitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced biosilicified chitin arm guards", "str_pl": "pairs of XL reinforced biosilicified chitin arm guards" },
+  "description": "A pair of arm guards crafted from the carefully cleaned and pruned biosilicified exoskeletons of acidic ants.  Acid-resistant but brittle and sized for the largest of survivors. Durable, and even lighter than standard chitin.",
+  "material": [ "r_acidchitin" ],
+  "proportional": { "weight": 1.25, "volume": 1.25 },
+  "material_thickness": 5,
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_armguard_acidchitin",
+  "type": "ARMOR",
+  "copy-from": "r_armguard_acidchitin",
+  "looks_like": "r_armguard_acidchitin",
+  "name": { "str": "pair of XS reinforced biosilicified chitin arm guards", "str_pl": "pairs of XS reinforced biosilicified chitin arm guards" },
+  "description": "A pair of arm guards crafted from the carefully cleaned and pruned biosilicified exoskeletons of acidic ants.  Acid-resistant but brittle and sized for the smallest of survivors. Durable, and even lighter than standard chitin.",
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_boots_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of reinforced chitinous boots", "str_pl": "pairs of reinforced chitinous boots" },
+  "description": "Boots made from the exoskeletons of giant insects. very light.",
+  "weight": "1220 g",
+  "volume": "4250 ml",
+  "price": 13500,
+  "price_postapoc": 1250,
+  "to_hit": -1,
+  "material": [ "r_chitin" ],
+  "symbol": "[",
+  "looks_like": "boots_bone",
+  "color": "green",
+  "warmth": 10,
+  "material_thickness": 4,
+  "environmental_protection": 3,
+  "flags": [ "STURDY", "VARSIZE", "WATERPROOF" ],
+  "armor": [
+    {
+      "covers": [ "foot_l", "foot_r" ],
+      "specifically_covers": [
+        "foot_heel_r",
+        "foot_heel_l",
+        "foot_arch_r",
+        "foot_arch_l",
+        "foot_toes_l",
+        "foot_toes_r",
+        "foot_sole_l",
+        "foot_sole_r"
+      ],
+      "encumbrance": 10,
+      "coverage": 95
+    },
+    { "coverage": 75, "covers": [ "foot_l", "foot_r" ], "specifically_covers": [ "foot_ankle_l", "foot_ankle_r" ] }
+  ],
+  "melee_damage": { "bash": 4 }
+},
+{
+  "id": "xl_r_boots_chitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced chitinous boots", "str_pl": "pairs of XL reinforced chitinous boots" },
+  "copy-from": "r_boots_chitin",
+  "proportional": { "weight": 1.25, "volume": 1.25 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_boots_chitin",
+  "type": "ARMOR",
+  "copy-from": "r_boots_chitin",
+  "looks_like": "r_boots_chitin",
+  "name": { "str": "pair of XS reinforced chitinous boots", "str_pl": "pairs of XS reinforced chitinous boots" },
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_boots_acidchitin",
+  "copy-from": "r_boots_chitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of reinforced biosilicified chitin boots", "str_pl": "pairs of reinforced biosilicified chitin boots" },
+  "description": "Boots crafted from the carefully cleaned and pruned biosilicified exoskeletons of giant acidic ants.  Acid-resistant and very light but brittle.",
+  "price_postapoc": 1750,
+  "material": [ "r_acidchitin" ],
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
+  "relative": { "melee_damage": { "bash": 2 } },
+  "material_thickness": 5
+},
+{
+  "id": "xl_r_boots_acidchitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced biosilicified chitin boots", "str_pl": "pairs of XL reinforced biosilicified chitin boots" },
+  "copy-from": "r_boots_acidchitin",
+  "proportional": { "weight": 1.25, "volume": 1.25 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_boots_acidchitin",
+  "type": "ARMOR",
+  "copy-from": "r_boots_acidchitin",
+  "looks_like": "r_boots_acidchitin",
+  "name": { "str": "pair of XS reinforced biosilicified chitin boots", "str_pl": "pairs of XS reinforced biosilicified chitin boots" },
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_gauntlets_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of reinforced chitinous gauntlets", "str_pl": "pairs of reinforced chitinous gauntlets" },
+  "description": "A pair of gauntlets made from the exoskeletons of giant insects. Very light.",
+  "weight": "560 g",
+  "volume": "1750 ml",
+  "price": 38000,
+  "price_postapoc": 1250,
+  "to_hit": -2,
+  "material": [ "r_chitin" ],
+  "symbol": "[",
+  "looks_like": "gauntlets_larmor",
+  "color": "green",
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 4,
+  "flags": [ "STURDY", "DURABLE_MELEE" ],
+  "armor": [
+    {
+      "encumbrance": 12,
+      "coverage": 95,
+      "covers": [ "hand_l", "hand_r" ],
+      "specifically_covers": [ "hand_back_l", "hand_back_r", "hand_wrist_l", "hand_wrist_r" ]
+    },
+    {
+      "coverage": 80,
+      "covers": [ "hand_l", "hand_r" ],
+      "specifically_covers": [ "hand_fingers_l", "hand_fingers_r" ]
+    }
+  ],
+  "melee_damage": { "bash": 2 }
+},
+{
+  "id": "xl_r_gauntlets_chitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced chitinous gauntlets", "str_pl": "pairs of XL reinforced chitinous gauntlets" },
+  "copy-from": "gauntlets_chitin",
+  "proportional": { "weight": 1.5, "volume": 1.5 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_gauntlets_chitin",
+  "type": "ARMOR",
+  "copy-from": "r_gauntlets_chitin",
+  "looks_like": "r_gauntlets_chitin",
+  "name": { "str": "pair of XS reinforced chitinous gauntlets", "str_pl": "pairs of XS reinforced chitinous gauntlets" },
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_gauntlets_acidchitin",
+  "copy-from": "r_gauntlets_chitin",
+  "looks_like": "r_gauntlets_chitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of reinforced biosilicified chitin gauntlets", "str_pl": "pairs of reinforced biosilicified chitin gauntlets" },
+  "description": "A pair of gauntlets crafted from the carefully cleaned and pruned biosilicified exoskeletons of giant acidic ants.  Acid-resistant, very light, but brittle.",
+  "material": [ "r_acidchitin" ],
+  "price_postapoc": 1750,
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
+  "relative": { "melee_damage": { "bash": 1 } },
+  "material_thickness": 5
+},
+{
+  "id": "xl_r_gauntlets_acidchitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced biosilicified chitin gauntlets", "str_pl": "pairs of XL reinforced biosilicified chitin gauntlets" },
+  "copy-from": "r_gauntlets_acidchitin",
+  "proportional": { "weight": 1.5, "volume": 1.5 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_gauntlets_acidchitin",
+  "type": "ARMOR",
+  "copy-from": "r_gauntlets_acidchitin",
+  "looks_like": "r_gauntlets_acidchitin",
+  "name": { "str": "pair of XS reinforced biosilicified chitin gauntlets", "str_pl": "pairs of XS reinforced biosilicified chitin gauntlets" },
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_helmet_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "reinforced chitinous helmet" },
+  "description": "A helmet made from the exoskeletons of giant insects.  Covers the entire head; very light and durable.",
+  "weight": "1097 g",
+  "volume": "2500 ml",
+  "price": 38000,
+  "price_postapoc": 1250,
+  "to_hit": -2,
+  "material": [ "r_chitin" ],
+  "symbol": "[",
+  "looks_like": "helmet_larmor",
+  "color": "green",
+  "armor": [
+    {
+      "covers": [ "head" ],
+      "specifically_covers": [ "head_crown", "head_forehead", "head_ear_l", "head_ear_r" ],
+      "coverage": 95,
+      "encumbrance_modifiers": [ "NONE" ]
+    },
+    {
+      "covers": [ "mouth" ],
+      "rigid_layer_only": true,
+      "coverage": 70,
+      "specifically_covers": [ "mouth_lips", "mouth_nose" ],
+      "encumbrance": 5
+    },
+    {
+      "covers": [ "mouth" ],
+      "rigid_layer_only": true,
+      "specifically_covers": [ "mouth_cheeks", "mouth_chin" ],
+      "coverage": 95
+    },
+    { "covers": [ "head" ], "specifically_covers": [ "head_nape", "head_throat" ], "coverage": 60 },
+    { "covers": [ "eyes" ], "rigid_layer_only": true, "coverage": 60, "encumbrance": 5 }
+  ],
+  "warmth": 20,
+  "material_thickness": 4,
+  "environmental_protection": 4,
+  "flags": [ "WATERPROOF", "STURDY" ],
+  "melee_damage": { "bash": 1 }
+},
+{
+  "id": "xl_r_helmet_chitin",
+  "type": "ARMOR",
+  "copy-from": "r_helmet_chitin",
+  "name": { "str": "XL reinforced chitinous helmet" },
+  "proportional": { "weight": 1.25, "volume": 1.3, "price": 1.25 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_helmet_chitin",
+  "type": "ARMOR",
+  "copy-from": "r_helmet_chitin",
+  "looks_like": "r_helmet_chitin",
+  "name": { "str": "XS reinforced chitinous helmet" },
+  "description": "A helmet made from the exoskeletons of giant insects.  Covering the entire head, it is very light and durable.",
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "flags": [ "WATERPROOF", "STURDY", "UNDERSIZE" ]
+},
+{
+  "id": "r_helmet_acidchitin",
+  "copy-from": "r_helmet_chitin",
+  "looks_like": "r_helmet_chitin",
+  "type": "ARMOR",
+  "name": { "str": "biosilicified reinforced chitin helmet" },
+  "description": "A helmet crafted from the carefully cleaned and pruned biosilicified exoskeletons of giant acidic ants.  Acid-resistant but brittle.",
+  "price_postapoc": 1750,
+  "material": [ "r_acidchitin" ],
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "warmth": 1.5 },
+  "relative": { "melee_damage": { "bash": 1 } },
+  "material_thickness": 5
+},
+{
+  "id": "xl_r_helmet_acidchitin",
+  "type": "ARMOR",
+  "copy-from": "r_helmet_acidchitin",
+  "name": { "str": "XL biosilicified reinforced chitin helmet" },
+  "proportional": { "weight": 1.25, "volume": 1.3, "price": 1.25 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_helmet_acidchitin",
+  "type": "ARMOR",
+  "copy-from": "r_helmet_acidchitin",
+  "looks_like": "r_helmet_acidchitin",
+  "name": { "str": "XS biosilicified reinforced chitin helmet" },
+  "description": "A helmet crafted from the carefully cleaned and pruned biosilicified exoskeletons of giant acidic ants.  Acid-resistant but brittle.",
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_legguard_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "pair of reinforced chitin leg guards", "str_pl": "pairs of reinforced chitin leg guards" },
+  "description": "A pair of leg guards made from the exoskeletons of giant insects.",
+  "weight": "590 g",
+  "volume": "5000 ml",
+  "price": 25000,
+  "price_postapoc": 750,
+  "to_hit": 1,
+  "material": [ "r_chitin" ],
+  "symbol": "[",
+  "looks_like": "legguard_hard",
+  "color": "green",
+  "warmth": 10,
+  "material_thickness": 4,
+  "environmental_protection": 2,
+  "flags": [ "STURDY", "OUTER", "BLOCK_WHILE_WORN", "WATER_FRIENDLY" ],
+  "armor": [
+    {
+      "covers": [ "leg_l", "leg_r" ],
+      "encumbrance": 1,
+      "coverage": 90,
+      "cover_melee": 90,
+      "cover_ranged": 90,
+      "cover_vitals": 50,
+      "specifically_covers": [ "leg_lower_r", "leg_lower_l", "leg_knee_r", "leg_knee_l" ]
+    }
+  ]
+},
+{
+  "id": "xl_r_legguard_chitin",
+  "copy-from": "r_legguard_chitin",
+  "looks_like": "r_legguard_chitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced chitin leg guards", "str_pl": "pairs of XL reinforced chitin leg guards" },
+  "description": "A pair of leg guards made from the exoskeletons of insects.  This pair in particular looks fit for a giant.",
+  "proportional": { "weight": 1.5, "volume": 1.5 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_legguard_chitin",
+  "type": "ARMOR",
+  "copy-from": "r_legguard_chitin",
+  "looks_like": "r_legguard_chitin",
+  "name": { "str": "pair of XS reinforced chitin leg guards", "str_pl": "pairs of XS reinforced chitin leg guards" },
+  "description": "A pair of leg guards made from the exoskeletons of insects.  This pair in particular feels like it was made for a small child.",
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_legguard_acidchitin",
+  "copy-from": "r_legguard_chitin",
+  "looks_like": "r_legguard_chitin",
+  "type": "ARMOR",
+  "price_postapoc": 1250,
+  "name": { "str": "pair of reinforced biosilicified chitin leg guards", "str_pl": "pairs of reinforced biosilicified chitin leg guards" },
+  "description": "A pair of leg guards crafted from the carefully cleaned and pruned biosilicified exoskeletons of giant acidic ants.  Acid-resistant but brittle.",
+  "material": [ "r_acidchitin" ],
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
+  "material_thickness": 5
+},
+{
+  "id": "xl_r_legguard_acidchitin",
+  "copy-from": "r_legguard_acidchitin",
+  "looks_like": "r_legguard_acidchitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XL reinforced biosilicified chitin leg guards", "str_pl": "pairs of XL reinforced biosilicified chitin guards" },
+  "description": "A pair of leg guards crafted from the carefully cleaned and pruned biosilicified exoskeletons of giantacidic ants.  Acid-resistant but brittle.  This pair in particular looks fit for a giant.",
+  "proportional": { "weight": 1.5, "volume": 1.5 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_legguard_acidchitin",
+  "copy-from": "r_legguard_acidchitin",
+  "looks_like": "r_legguard_acidchitin",
+  "type": "ARMOR",
+  "name": { "str": "pair of XS reinforced biosilicified chitin leg guards", "str_pl": "pairs of XS reinforced biosilicified chitin guards" },
+  "description": "A pair of leg guards crafted from the carefully cleaned and pruned biosilicified exoskeletons of giant acidic ants.  Acid-resistant but brittle.  This pair in particular feels like it was made for a small child.",
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "r_armor_chitin",
+  "type": "ARMOR",
+  "category": "armor",
+  "name": { "str": "reinforced chitinous armor" },
+  "description": "Leg and body armor made from the exoskeletons of giant insects.",
+  "weight": "1982 g",
+  "volume": "17500 ml",
+  "price": 120000,
+  "price_postapoc": 3000,
+  "to_hit": -5,
+  "material": [ "r_chitin" ],
+  "symbol": "[",
+  "looks_like": "armor_larmor",
+  "color": "green",
+  "warmth": 10,
+  "longest_side": "60 cm",
+  "material_thickness": 4,
+  "flags": [ "STURDY", "OUTER" ],
+  "armor": [
+    { "covers": [ "torso" ], "coverage": 90, "encumbrance": 6 },
+    {
+      "covers": [ "leg_l", "leg_r" ],
+      "coverage": 90,
+      "encumbrance": [ 5, 5 ],
+      "specifically_covers": [ "leg_upper_r", "leg_upper_l" ]
+    }
+  ],
+  "melee_damage": { "bash": 2 }
+},
+{
+  "id": "xl_r_armor_chitin",
+  "type": "ARMOR",
+  "name": { "str": "XL reinforced chitinous armor" },
+  "copy-from": "r_armor_chitin",
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_armor_chitin",
+  "type": "ARMOR",
+  "copy-from": "r_armor_chitin",
+  "looks_like": "r_armor_chitin",
+  "name": { "str": "XS reinforced chitinous armor" },
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "flags": [ "STURDY", "OUTER", "UNDERSIZE" ]
+},
+{
+  "id": "r_armor_acidchitin",
+  "copy-from": "r_armor_chitin",
+  "looks_like": "r_armor_chitin",
+  "type": "ARMOR",
+  "name": { "str": "reinforced biosilicified chitin armor" },
+  "description": "Leg and body armor crafted from the carefully cleaned and pruned biosilicified exoskeletons of giant acidic ants.  Acid-resistant but brittle.",
+  "material": [ "r_acidchitin" ],
+  "material_thickness": 5,
+  "environmental_protection": 2,
+  "price_postapoc": 3500,
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25, "encumbrance": 1.5, "warmth": 1.5 },
+  "relative": { "melee_damage": { "bash": 1 } }
+},
+{
+  "id": "xl_r_armor_acidchitin",
+  "type": "ARMOR",
+  "name": { "str": "XL reinforced biosilicified chitin armor" },
+  "copy-from": "r_armor_acidchitin",
+  "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+  "extend": { "flags": [ "OVERSIZE" ] }
+},
+{
+  "id": "xs_r_armor_acidchitin",
+  "type": "ARMOR",
+  "copy-from": "r_armor_acidchitin",
+  "looks_like": "r_rarmor_acidchitin",
+  "name": { "str": "XS reinforced biosilicified chitin armor" },
+  "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+  "extend": { "flags": [ "UNDERSIZE" ] }
+},
+{
+  "id": "goggles_flameeye",
+  "looks_like": "goggles_ir",
+  "type": "TOOL_ARMOR",
+  "category": "clothing",
+  "symbol": "[",
+  "color": "dark_gray",
+  "name": { "str": "pair of flaming eye goggles", "str_pl": "pairs offlaming eye goggles" },
+  "description": "A pair of goggles made from the lenses of flaming eyes, allows seeing the heat of living things, along with... other sights.",
+  "flags": [ "OUTER","IR_EFFECT" ],
+  "price": 92000,
+  "price_postapoc": 2500,
+  "material": [ "bone", "plastic" ],
+  "weight": "1240 g",
+  "volume": "1 L",
+  "to_hit": -3,
+  "warmth": 10,
+  "environmental_protection": 3,
+  "material_thickness": 2,
+  "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "eyes" ], "rigid_layer_only": true } ]
+}
+]

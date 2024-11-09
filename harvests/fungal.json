@@ -1,0 +1,34 @@
+[{
+  "id": "zombie_humanoid_mushroom",
+  "copy-from": "zombie_humanoid_mushroom",
+  "//": "humanoid moldy zombie",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "basic_fungal_pod", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+},
+{
+  "id": "zombie_animal_mushroom",
+  "copy-from": "zombie_animal_mushroom",
+  "//": "animal moldy zombie",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "basic_fungal_pod", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+},
+{
+  "id": "moldy_bones",
+  "copy-from": "moldy_bones",
+  "//": "spooky scary moldy skeletons",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "basic_fungal_pod", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+},
+{
+  "id": "fungaloid",
+  "copy-from": "fungaloid",
+  "type": "harvest",
+  "extend": { "entries": [ { "drop": "moderate_fungal_pod", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+},
+{
+  "id": "fungaloid_mass",
+  "copy-from": "fungaloid_mass",
+  "type": "harvest",
+  "message": "You laboriously hack and dig through the remains of the fungal mass.",
+  "extend": { "entries": [ { "drop": "advanced_fungal_pod", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+}]

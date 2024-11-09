@@ -1,0 +1,16 @@
+[
+{
+  "id": "r_armor_chitin",
+  "type": "requirement",
+  "//": "Shaping and attaching a giant chitin plate to something, per 90 g of chitin.  Time needed is 10 minutes per unit.",
+  "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SEW", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 } ],
+  "components": [ [ [ "r_chitin_piece", 1 ] ], [ [ "filament", 1, "LIST" ] ] ]
+},
+{
+  "id": "r_armor_acidchitin",
+  "type": "requirement",
+  "//": "Shaping and attaching a biosillicified giant chitin plate to something, per 112 g of biosillicified chitin.  Time needed is 10 minutes per unit.  In the future when we have some bases, we should also add the requirement for a weak base to neutralize the chitin before crafting with it.",
+  "qualities": [ { "id": "CUT", "level": 2 }, { "id": "SEW", "level": 1 }, { "id": "LEATHER_AWL", "level": 1 } ],
+  "components": [ [ [ "r_acidchitin_piece", 1 ] ], [ [ "filament", 1, "LIST" ] ] ]
+}
+]

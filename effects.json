@@ -1,0 +1,32 @@
+[
+  {
+    "type": "technique",
+    "id": "venom_weaken_stab",
+    "name": "Weakening Venom Stab",
+    "messages": [ "*HISS!* You stab %s and a flood of venom pours though the tip of your blade!", "*HISS!* <npcname> stab %s and a flood of venom pours though the tip of their blade!" ],
+    "skill_requirements": [ { "name": "melee", "level": 2 } ],
+    "unarmed_allowed": false,
+    "weighting": 2,
+    "tech_effects": [
+      "venom_weaken"
+    ],
+    "flat_bonuses": [ { "stat": "arpen", "type": "piece", "scaling-stat": "dex", "scale": 1.0 } ],
+    "mult_bonuses": [ { "stat": "damage", "type": "piece", "scale": 2.0 } ],
+    "attack_vectors": [ "WEAPON" ]
+  },
+  {
+    "type": "technique",
+    "id": "venom_damage_stab",
+    "name": "Damaging Venom Stab",
+    "messages": [ "*HISS!* You stab %s and a flood of venom pours though the tip of your blade!", "*HISS!* <npcname> stab %s and a flood of venom pours though the tip of their blade!" ],
+    "skill_requirements": [ { "name": "melee", "level": 2 } ],
+    "unarmed_allowed": false,
+    "weighting": 2,
+    "tech_effects": [
+      "venom_dmg"
+    ],
+    "flat_bonuses": [ { "stat": "arpen", "type": "piece", "scaling-stat": "dex", "scale": 1.0 } ],
+    "mult_bonuses": [ { "stat": "damage", "type": "piece", "scale": 2.0 } ],
+    "attack_vectors": [ "WEAPON" ]
+  }
+]

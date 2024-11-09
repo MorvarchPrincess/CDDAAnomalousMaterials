@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sonic",
+    "type": "damage_type",
+    "melee_only": false,
+    "physical": false,
+    "magic_color": "h_white",
+    "name": "sonic",
+    "derived_from": [ "bash", 0.4 ],
+    "mon_difficulty": true,
+    "material_required": false
+  },
+  {
+    "id": "sonic",
+    "type": "damage_info_order",
+    "info_display": "basic",
+    "verb": "sonic",
+    "bionic_info": { "order": 990, "show_type": true },
+    "protection_info": { "order": 690, "show_type": true },
+    "pet_prot_info": { "order": 990, "show_type": true },
+    "melee_combat_info": { "order": 990, "show_type": true },
+    "ablative_info": { "order": 990, "show_type": true }
+  }
+]

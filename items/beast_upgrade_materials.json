@@ -1,0 +1,458 @@
+[{
+  "type": "AMMO",
+  "id": "sinew_brute",
+  "category": "spare_parts",
+  "price": 5000,
+  "price_postapoc": 250,
+  "name": { "str": "Brute sinew" },
+  "symbol": "=",
+  "color": "light_gray",
+  "looks_like": "thread",
+  "description": "A very tough sinew cut from a muscled corpse, usable as a strong thread.",
+  "material": [ "flesh" ],
+  "flags": [ "NO_SALVAGE" ],
+  "volume": "200 ml",
+  "weight": "20 g",
+  "//": "30 meters of thread per 1g, roughly 6 inches of thread per unit.",
+  "ammo_type": "thread",
+  "count": 50,
+  "stack_size": 200
+},
+{
+  "type": "AMMO",
+  "id": "sinew_hulk",
+  "category": "spare_parts",
+  "price": 5000,
+  "price_postapoc": 500,
+  "name": { "str": "Hulk sinew" },
+  "symbol": "=",
+  "color": "light_gray",
+  "looks_like": "thread",
+  "description": "A steel thread like sinew cut from an extremely muscled corpse, usable as uniquely tough thread.",
+  "material": [ "flesh" ],
+  "flags": [ "NO_SALVAGE" ],
+  "volume": "200 ml",
+  "weight": "40 g",
+  "//": "30 meters of thread per 1g, roughly 6 inches of thread per unit.",
+  "ammo_type": "thread",
+  "count": 50,
+  "stack_size": 200
+},
+{
+  "id": "tough_monster_filament",
+  "type": "requirement",
+  "//": "Materials for use when creating monster crafts out of tougher materials. 10 inches of brute or hulk sinew.",
+  "components": [
+    [
+      [ "sinew_brute", 1 ],
+      [ "sinew_hulk", 1 ]
+    ]
+  ]
+},{
+  "type": "COMESTIBLE",
+  "id": "blood_writhing",
+  "category": "other",
+  "name": { "str_sp": "writhing blood" },
+  "weight": "238 g",
+  "color": "red",
+  "spoils_in": "16 hours",
+  "calories": 320,
+  "description": "Blood from a mutant creature. It writhes as you look at it, seeking to change even now. Maybe you could use that property in something?",
+  "price": 0,
+  "price_postapoc": 10,
+  "looks_like": "blood",
+  "symbol": "~",
+  "material": "blood",
+  "volume": "250 ml",
+  "fun": -10,
+  "charges": 1,
+  "phase": "liquid",
+  "flags": [ "TRADER_AVOID", "NUTRIENT_OVERRIDE", "RAW" ],
+  "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You choke down the disgusting, writhing liquid.",
+      "vitamins": [ [ "mutagen", 50, 60 ], [ "mutant_toxin", 50 ] ]
+    }
+},
+{
+  "id": "blood_mutagenic",
+  "type": "COMESTIBLE",
+  "copy-from": "blood_writhing",
+  "name": { "str_sp": "mutagenic blood" },
+  "description": "Blood from a dangerous mutant creature. It changes as you watch it, and could probably impart that property on something if used right.",
+  "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You choke down the disgusting, writhing liquid.",
+      "vitamins": [ [ "mutagen", 150, 160 ], [ "mutant_toxin", 50 ] ]
+    }
+},
+{
+  "id": "blood_protean",
+  "type": "COMESTIBLE",
+  "copy-from": "blood_writhing",
+  "name": { "str_sp": "protean blood" },
+  "description": "Blood from a powerful mutant creature. It constantly shifts and churns - you could use it to make a powerful change in something.",
+  "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You choke down the disgusting, writhing liquid.",
+      "vitamins": [ [ "mutagen", 300, 400 ], [ "mutant_toxin", 50 ] ]
+    }
+},
+{
+  "id": "basic_change_blood",
+  "type": "requirement",
+  "//": "Materials for use when applying basic change to monster crafts. Mutant blood, less needed for more potent versions.",
+  "components": [
+    [
+      [ "blood_writhing", 4 ],
+      [ "blood_mutagenic", 2 ],
+      [ "blood_protean", 1 ]
+    ]
+  ]
+},
+{
+  "id": "moderate_change_blood",
+  "type": "requirement",
+  "//": "Materials for use when applying moderate change to monster crafts. Mutant blood, less needed for more potent versions.",
+  "components": [
+    [
+      [ "blood_mutagenic", 4 ],
+      [ "blood_protean", 2 ]
+    ]
+  ]
+},
+{
+  "id": "advanced_change_blood",
+  "type": "requirement",
+  "//": "Materials for use when applying advanced change to monster crafts. Mutant blood.",
+  "components": [
+    [
+      [ "blood_protean", 4 ]
+    ]
+  ]
+},
+{
+  "type": "GENERIC",
+  "id": "monolith_ingredient_basic",
+  "category": "spare_parts",
+  "symbol": ",",
+  "color": "dark_gray",
+  "name": { "str": "Probably Something?" },
+  "description": "You're mostly certain this exists. Its hard to put a finger on any real qualities of it, but you can probably use it for something, right?",
+  "material": [ "monolith" ],
+  "weight": "3 kg",
+  "volume": "1 L"
+},
+{
+  "type": "GENERIC",
+  "id": "monolith_ingredient_advanced",
+  "category": "spare_parts",
+  "symbol": ",",
+  "color": "dark_gray",
+  "name": { "str": "Something Useful" },
+  "description": "Okay, you're almost certain this one is real. Its... more than a probably something, and you think you could do better things with it.",
+  "material": [ "monolith" ],
+  "weight": "9 kg",
+  "volume": "0.5 L"
+},
+{
+  "type": "GENERIC",
+  "id": "monolith_ingredient_master",
+  "category": "spare_parts",
+  "symbol": ",",
+  "color": "dark_gray",
+  "name": { "str": "Something Extrodinary" },
+  "description": "This; You don't know what it is, but it is definately the best of its kind. Could be used to do extraordinary things.",
+  "material": [ "monolith" ],
+  "weight": "27 kg",
+  "volume": "0.1 L"
+},
+{
+  "id": "basic_wierd_stone",
+  "type": "requirement",
+  "//": "Materials for use when applying esoteric changes to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "monolith_ingredient_basic", 1 ],
+      [ "monolith_ingredient_advanced", 1 ],
+      [ "monolith_ingredient_master", 1 ]
+    ]
+  ]
+},
+{
+  "id": "moderate_wierd_stone",
+  "type": "requirement",
+  "//": "Materials for use when applying esoteric changes to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "monolith_ingredient_advanced", 1 ],
+      [ "monolith_ingredient_master", 1 ]
+    ]
+  ]
+},
+{
+  "id": "advanced_wierd_stone",
+  "type": "requirement",
+  "//": "Materials for use when applying esoteric changes to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "monolith_ingredient_master", 1 ]
+    ]
+  ]
+},
+{
+  "type": "GENERIC",
+  "id": "basic_insectoid_strength_gland",
+  "color": "dark_gray",
+  "name": { "str": "Brute Insect Gland" },
+  "description": "A strange gland from a large insect, this explains how these insects can break the square cubed law. Could be used to add strength or power to a monster craft.",
+  "category": "chems",
+  "comestible_type": "FOOD",
+  "spoils_in": "16 hours",
+  "weight": "130 g",
+  "volume": "110 ml",
+  "symbol": "o",
+  "looks_like": "mutant_bug_hydrogen_sacs",
+  "material": [ "flesh" ]
+},
+{
+  "type": "GENERIC",
+  "id": "moderate_insectoid_strength_gland",
+  "copy-from": "basic_insectoid_strength_gland",
+  "name": { "str": "Hulk Insect Gland" },
+  "description": "A strange gland from a huge insect, this explains how these insects can break the square cubed law. Could be used to add strength or power to a monster craft."
+},
+{
+  "type": "GENERIC",
+  "id": "advanced_insectoid_strength_gland",
+  "copy-from": "basic_insectoid_strength_gland",
+  "name": { "str": "Goliath Insect Gland" },
+  "description": "A strange gland from a truly gargantuan insect, this explains how these insects can break the square cubed law. Could be used to add strength or power to a monster craft."
+},
+{
+  "id": "basic_strength_gland",
+  "type": "requirement",
+  "//": "Materials for use when applying strength or power improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "basic_insectoid_strength_gland", 1 ],
+      [ "moderate_insectoid_strength_gland", 1 ],
+      [ "advanced_insectoid_strength_gland", 1 ]
+    ]
+  ]
+},
+{
+  "id": "moderate_strength_gland",
+  "type": "requirement",
+  "//": "Materials for use when applying strength or power improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "moderate_insectoid_strength_gland", 1 ],
+      [ "advanced_insectoid_strength_gland", 1 ]
+    ]
+  ]
+},
+{
+  "id": "advanced_strength_gland",
+  "type": "requirement",
+  "//": "Materials for use when applying strength or power improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "advanced_insectoid_strength_gland", 1 ]
+    ]
+  ]
+},
+{
+  "type": "GENERIC",
+  "id": "basic_triffid_root",
+  "name": { "str": "Germinating Triffid Root" },
+  "description": "A green root from a triffid, already trying to grow again. Could be used to add growth to a monster craft.",
+  "category": "spare_parts",
+  "color": "green",
+  "price": 0,
+  "material": [ "bone" ],
+  "weight": "225 g",
+  "symbol": "%",
+  "longest_side": "40 cm"
+},
+{
+  "type": "GENERIC",
+  "id": "moderate_triffid_root",
+  "name": { "str": "Budding Triffid Root" },
+  "description": "A green root from a triffid, already showing signs of growing out again. Could be used to add growth to a monster craft.",
+  "category": "spare_parts",
+  "color": "green",
+  "price": 0,
+  "material": [ "bone" ],
+  "weight": "550 g",
+  "symbol": "%",
+  "longest_side": "40 cm"
+},
+{
+  "type": "GENERIC",
+  "id": "advanced_triffid_root",
+  "name": { "str": "Flowering Triffid Root" },
+  "description": "A green root from a triffid, already covered in flowers. Could be used to add growth to a monster craft.",
+  "category": "spare_parts",
+  "color": "green",
+  "price": 0,
+  "material": [ "bone" ],
+  "weight": "775 g",
+  "symbol": "%",
+  "longest_side": "40 cm"
+},
+{
+  "id": "basic_growth_root",
+  "type": "requirement",
+  "//": "Materials for use when applying basic growth or vitality improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "basic_triffid_root", 1 ],
+      [ "moderate_triffid_root", 1 ],
+      [ "advanced_triffid_root", 1 ]
+    ]
+  ]
+},
+{
+  "id": "moderate_growth_root",
+  "type": "requirement",
+  "//": "Materials for use when applying mid level growth or vitality improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "moderate_triffid_root", 1 ],
+      [ "advanced_triffid_root", 1 ]
+    ]
+  ]
+},
+{
+  "id": "advanced_growth_root",
+  "type": "requirement",
+  "//": "Materials for use when applying high level growth or vitality improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "advanced_triffid_root", 1 ]
+    ]
+  ]
+},
+{
+  "type": "GENERIC",
+  "id": "basic_fungal_pod",
+  "color": "dark_gray",
+  "name": { "str": "Heady Fungal Pod" },
+  "description": "A pod of spores from a fungal creature. You feel light headed just holding it - you could probably use this in crafts to debilitating effects.",
+  "category": "chems",
+  "comestible_type": "FOOD",
+  "spoils_in": "16 hours",
+  "weight": "130 g",
+  "volume": "110 ml",
+  "symbol": "o",
+  "looks_like": "mutant_bug_hydrogen_sacs",
+  "material": [ "flesh" ]
+},
+{
+  "type": "GENERIC",
+  "id": "moderate_fungal_pod",
+  "copy-from": "basic_fungal_pod",
+  "name": { "str": "Toxic Fungal Pod" },
+  "description": "A pod of spores from a fungal creature. You feel nearly ready to keel over just holding it - you could probably use this in crafts to debilitating effects."
+},
+{
+  "type": "GENERIC",
+  "id": "advanced_fungal_pod",
+  "copy-from": "basic_fungal_pod",
+  "name": { "str": "Debilitating Fungal Pod" },
+  "description": "A pod of spores from a fungal creature. You struggle to stay concious just holding it - you could probably use this in crafts to debilitating effects."
+},
+{
+  "id": "basic_fungal_spores",
+  "type": "requirement",
+  "//": "Materials for use when applying basic debuff improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "basic_fungal_pod", 1 ],
+      [ "moderate_fungal_pod", 1 ],
+      [ "advanced_fungal_pod", 1 ]
+    ]
+  ]
+},
+{
+  "id": "moderate_fungal_spores",
+  "type": "requirement",
+  "//": "Materials for use when applying basic debuff improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "moderate_fungal_pod", 1 ],
+      [ "advanced_fungal_pod", 1 ]
+    ]
+  ]
+},
+{
+  "id": "advanced_fungal_spores",
+  "type": "requirement",
+  "//": "Materials for use when applying basic debuff improvements to monster crafts, can substitute a higher level one for a lower level.",
+  "components": [
+    [
+      [ "advanced_fungal_pod", 1 ]
+    ]
+  ]
+},
+{
+  "id": "biochip_basic",
+  "type": "COMESTIBLE",
+  "copy-from": "meat_mi-go",
+  "looks_like": "brain",
+  "name": { "str": "rudimentary mi-go sub-brain" },
+  "description": "A small, squishy brain like piece extracted from a dead mi-go or their weapons. With the right implementation, this could add some rudimentary mechanism control to a craft.",
+  "proportional": { "price_postapoc": 0.5 }
+},
+{
+  "id": "biochip_moderate",
+  "type": "COMESTIBLE",
+  "copy-from": "meat_mi-go",
+  "looks_like": "brain",
+  "name": { "str": "basic mi-go sub-brain" },
+  "description": "A small, squishy brain like piece extracted from a dead mi-go or their weapons. With the right implementation, this could add some moderate mechanism control to a craft.",
+  "proportional": { "price_postapoc": 0.5 }
+},
+{
+  "id": "biochip_advanced",
+  "type": "COMESTIBLE",
+  "copy-from": "meat_mi-go",
+  "looks_like": "brain",
+  "name": { "str": "adaptive mi-go sub-brain" },
+  "description": "A small, squishy brain like piece extracted from a dead mi-go or their weapons. With the right implementation, this could add some quite advanced mechanism control to a craft.",
+  "proportional": { "price_postapoc": 0.5 }
+},
+{
+  "id": "basic_migobrain",
+  "type": "requirement",
+  "//": "Materials for use when applying low level intelligence/automated control/biological mechanisms to monster crafts. Can use a high level one in place of a low level one.",
+  "components": [
+    [
+      [ "biochip_basic", 1 ],
+      [ "biochip_moderate", 1 ],
+      [ "biochip_advanced", 1 ]
+    ]
+  ]
+},
+{
+  "id": "moderate_migobrain",
+  "type": "requirement",
+  "//": "Materials for use when applying medium level intelligence/automated control/biological mechanisms to monster crafts. Can use a high level one in place of a low level one.",
+  "components": [
+    [
+      [ "biochip_moderate", 1 ],
+      [ "biochip_advanced", 1 ]
+    ]
+  ]
+},
+{
+  "id": "advanced_migobrain",
+  "type": "requirement",
+  "//": "Materials for use when applying high level intelligence/automated control/biological mechanisms to monster crafts. Can use a high level one in place of a low level one.",
+  "components": [
+    [
+      [ "biochip_advanced", 1 ]
+    ]
+  ]
+}]

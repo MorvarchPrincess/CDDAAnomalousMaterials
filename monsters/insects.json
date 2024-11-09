@@ -1,0 +1,227 @@
+[
+  {
+    "id": "mon_ant_acid_soldier_mega",
+    "copy-from": "mon_ant_acid_soldier_mega",
+    "harvest": "giant_acid_ant"
+  },
+  {
+    "id": "mon_ant_soldier_mega",
+    "copy-from": "mon_ant_soldier_mega",
+    "harvest": "giant_ant"
+  },
+  {
+    "id": "mon_wasp_guard",
+    "copy-from": "mon_wasp_guard",
+    "harvest": "giant_wasp"
+  },
+  {
+    "id": "mon_plague_vector",
+    "copy-from": "mon_plague_vector",
+    "harvest": "arachnid_tainted_large"
+  },
+  {
+    "id": "mon_silverfish",
+    "copy-from": "mon_silverfish",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_mole_cricket",
+    "copy-from": "mon_mole_cricket",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_bee_mega",
+    "copy-from": "mon_bee_mega",
+    "harvest": "arachnid_bee_mega"
+  },
+  {
+    "id": "mon_centipede_small",
+    "copy-from": "mon_centipede_small",
+    "harvest": "arachnid_centipede_small"
+  },
+  {
+    "id": "mon_centipede_larva",
+    "copy-from": "mon_centipede_larva",
+    "harvest": "arachnid_centipede_small"
+  },
+  {
+    "id": "mon_centipede_house_larva",
+    "copy-from": "mon_centipede_house_larva",
+    "harvest": "arachnid_centipede_small"
+  },
+  {
+    "id": "mon_dragonfly_giant",
+    "copy-from": "mon_dragonfly_giant",
+    "harvest": "arachnid_flying_dangerous"
+  },
+  {
+    "id": "mon_dermatik",
+    "copy-from": "mon_dermatik",
+    "harvest": "arachnid_flying_dangerous"
+  },
+  {
+    "id": "mon_antlion_giant",
+    "copy-from": "mon_antlion_giant",
+    "harvest": "arachnid_flying_dangerous"
+  },
+  {
+    "id": "mon_mosquito_mega",
+    "copy-from": "mon_mosquito_mega",
+    "harvest": "arachnid_flying_dangerous"
+  },
+  {
+    "id": "mon_fly_mega",
+    "copy-from": "mon_fly_mega",
+    "harvest": "arachnid_flying_dangerous"
+  },
+  {
+    "id": "mon_spider_cellar_giant",
+    "copy-from": "mon_spider_cellar_giant",
+    "harvest": "arachnid_spider_mega"
+  },
+  {
+    "id": "mon_spider_cellar_mega",
+    "copy-from": "mon_spider_cellar_mega",
+    "harvest": "arachnid_spider_mega"
+  },
+  {
+    "id": "mon_spider_jumping_mega",
+    "copy-from": "mon_spider_jumping_mega",
+    "harvest": "arachnid_spider_mega"
+  },
+  {
+    "id": "mon_spider_jumping_giant",
+    "copy-from": "mon_spider_jumping_giant",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_spider_trapdoor_giant",
+    "copy-from": "mon_spider_trapdoor_giant",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_spider_web_small",
+    "copy-from": "mon_spider_web_small",
+    "harvest": "arachnid_venemous_spider"
+  },
+  {
+    "id": "mon_spider_widow_small",
+    "copy-from": "mon_spider_widow_small",
+    "harvest": "arachnid_venemous_spider"
+  },
+  {
+    "id": "mon_spider_wolf_small",
+    "copy-from": "mon_spider_wolf_small",
+    "harvest": "arachnid_venemous_spider"
+  },
+  {
+    "id": "mon_spider_web",
+    "copy-from": "mon_spider_web",
+    "harvest": "arachnid_venemous_spider_large"
+  },
+  {
+    "id": "mon_spider_widow_giant",
+    "copy-from": "mon_spider_widow_giant",
+    "harvest": "arachnid_venemous_spider_large"
+  },
+  {
+    "id": "mon_spider_wolf_giant",
+    "copy-from": "mon_spider_wolf_giant",
+    "harvest": "arachnid_venemous_spider_large"
+  },
+  {
+    "id": "mon_spider_web_mega",
+    "copy-from": "mon_spider_web_mega",
+    "harvest": "arachnid_venemous_spider_mega"
+  },
+  {
+    "id": "mon_spider_widow_mega",
+    "copy-from": "mon_spider_widow_mega",
+    "harvest": "arachnid_venemous_spider_mega"
+  },
+  {
+    "id": "mon_spider_wolf_mega",
+    "copy-from": "mon_spider_wolf_mega",
+    "harvest": "arachnid_venemous_spider_mega"
+  },
+  {
+    "id": "mon_ant_queen",
+    "copy-from": "mon_ant_queen",
+    "harvest": "giant_ant_queen"
+  },
+  {
+    "id": "mon_mantis_small",
+    "copy-from": "mon_mantis_small",
+    "harvest": "mantis_small"
+  },
+  {
+    "id": "mon_mantis_nymph",
+    "copy-from": "mon_mantis_nymph",
+    "harvest": "arachnid"
+  },
+  {
+    "id": "mon_mantis_giant",
+    "copy-from": "mon_mantis_giant",
+    "harvest": "mantis_medium"
+  },
+  {
+    "id": "mon_mantis_mega",
+    "copy-from": "mon_mantis_mega",
+    "harvest": "mantis_large"
+  },
+  {
+    "id": "mon_mole_cricket",
+    "copy-from": "mon_mole_cricket",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_lady_bug",
+    "copy-from": "mon_lady_bug",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_lady_bug_giant",
+    "copy-from": "mon_lady_bug_giant",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_stag_beetle_small",
+    "copy-from": "mon_stag_beetle_small",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_stag_beetle_giant",
+    "copy-from": "mon_stag_beetle_giant",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_stag_beetle_mega",
+    "copy-from": "mon_stag_beetle_mega",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_antlion_larva",
+    "copy-from": "mon_antlion_larva",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_cicada_nymph",
+    "copy-from": "mon_cicada_nymph",
+    "harvest": "arachnid_large"
+  },
+  {
+    "id": "mon_antlion_giant",
+    "copy-from": "mon_antlion_giant",
+    "harvest": "arachnid_flying_dangerous"
+  },
+  {
+    "id": "mon_cicada",
+    "copy-from": "mon_cicada",
+    "harvest": "arachnid_flying_dangerous"
+  },
+]
+
+
+
+
+

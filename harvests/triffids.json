@@ -1,0 +1,75 @@
+[
+  {
+    "id": "triffid_medium",
+    "type": "harvest",
+    "entries": [
+      { "drop": "stick_fiber", "type": "bone", "mass_ratio": 0.5 },
+      { "drop": "veggy", "type": "flesh", "mass_ratio": 0.2 },
+      { "drop": "veggy", "type": "offal", "mass_ratio": 0.05 }
+    ]
+  },
+  {
+    "id": "biollante_small",
+    "//": "small biollante, branched off biollante",
+    "type": "harvest",
+    "copy-from": "biollante",
+    "extend": { "entries": [ { "drop": "basic_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "biollante",
+    "//": "biollante",
+    "type": "harvest",
+    "copy-from": "biollante",
+    "extend": { "entries": [ { "drop": "moderate_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "triffid_tiny",
+    "//": "actually small triffids",
+    "type": "harvest",
+    "copy-from": "triffid_small",
+    "extend": { "entries": [ { "drop": "basic_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "triffid_heart",
+    "//": "actually small triffids",
+    "type": "harvest",
+    "copy-from": "triffid_small",
+    "extend": { "entries": [ { "drop": "advanced_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "triffid_small",
+    "//": "actually small triffids",
+    "type": "harvest",
+    "copy-from": "triffid_small",
+    "extend": { "entries": [ { "drop": "moderate_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "triffid_paralytic_small",
+    "//": "actually small triffids",
+    "type": "harvest",
+    "copy-from": "triffid_paralytic",
+    "extend": 
+    { "entries": [ { "drop": "basic_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "triffid_paralytic",
+    "//": "actually small triffids",
+    "type": "harvest",
+    "copy-from": "triffid_paralytic",
+    "extend": { "entries": [ { "drop": "moderate_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "triffid_queen",
+    "//": "triffid queen",
+    "type": "harvest",
+    "copy-from": "triffid_queen",
+    "extend": { "entries": [ { "drop": "advanced_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  },
+  {
+    "id": "triffid_fungal_fighter",
+    "//": "actually small triffids",
+    "type": "harvest",
+    "copy-from": "triffid_fungal_fighter",
+    "extend": { "entries": [ { "drop": "moderate_triffid_root", "base_num": [ 1, 1 ], "type": "flesh" }  ] }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "monster_crafts",
+    "name": "Anomalous Materials",
+    "authors": [ "Morvarc'h" ],
+    "maintainers": [ "Morvarc'h" ],
+    "description": "Kill stuff and make cool shit from their corpses!",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]

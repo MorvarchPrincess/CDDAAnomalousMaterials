@@ -1,0 +1,208 @@
+[
+{
+  "result": "dagger_wasp_sting_1",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "6h 30m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "byproducts": [ [ "scrap_leather", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 } ],
+  "components": [ [ [ "wasp_sting", 1], [ "venom_wasp", 1 ], [ "chitin_piece", 2 ], [ "thread", 70 ] ], [ [ "leather", 1 ] ] ]
+},
+{
+  "result": "dagger_wasp_sting_2",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 4 ] ],
+  "time": "2h 30m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 5 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_chitinworking" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 } ],
+  "using": [ [ "tailoring_leather_small", 1 ] ],
+  "components": [ [ [ "dagger_wasp_sting_1", 1], [ "chitin_piece", 1 ], [ "tough_monster_filament", 80, "LIST" ] ] ]
+},
+{
+  "result": "dagger_spider_fang_1",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "6h 30m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "byproducts": [ [ "scrap_leather", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 } ],
+  "using": [ [ "tailoring_leather_small", 1 ] ],
+  "components": [ [ [ "arachnid_fang", 1], [ "venom_arachnid", 1 ], [ "chitin_piece", 2 ], [ "thread", 70 ] ], [ [ "leather", 1 ] ] ]
+},
+{
+  "result": "dagger_spider_fang_2",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "6h 30m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "byproducts": [ [ "scrap_leather", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_chitinworking" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 } ],
+  "using": [ [ "tailoring_leather_small", 1 ] ],
+  "components": [ [ [ "dagger_spider_fang_1", 1], [ "chitin_piece", 1 ], [ "tough_monster_filament", 80, "LIST" ] ] ]
+},
+{
+  "result": "sword_mantis_1",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "6h 30m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "byproducts": [ [ "scrap_leather", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 } ],
+  "using": [ [ "tailoring_leather_small", 1 ] ],
+  "components": [ [ [ "mantis_arm_small", 1], [ "chitin_piece", 1 ], [ "thread", 100 ] ], [ [ "leather", 2 ] ] ]
+},
+{
+  "result": "sword_mantis_2",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "6h 30m",
+  "autolearn": true,
+  "book_learn": [ [ "textbook_arthropod", 4 ] ],
+  "byproducts": [ [ "scrap_leather", 2 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 } ],
+  "using": [ [ "tailoring_leather_small", 1 ] ],
+  "components": [ [ [ "sword_mantis_1", 1], [ "chitin_piece", 1 ], [ "tough_monster_filament", 160, "LIST" ] ] ]
+},
+{
+  "result": "razor_axe_1",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "difficulty": 3,
+  "skills_required": [ [ "fabrication", 3 ] ],
+  "time": "2h 30m",
+  "autolearn": true,
+  "proficiencies": [
+    { "proficiency": "prof_carving" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "CUT", "level": 2 } ],
+  "components": [ [ [ "razor_claw_small", 1], [ "r_chitin_piece", 1 ], [ "thread", 100 ] ], [ [ "stick", 2 ] ] ]
+},
+{
+  "result": "razor_axe_2",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 5 ] ],
+  "time": "2h",
+  "autolearn": true,
+  "proficiencies": [
+    { "proficiency": "prof_carving" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "CUT", "level": 2 } ],
+  "components": [ [ [ "razor_axe_1", 1], [ "r_chitin_piece", 1 ], [ "basic_strength_gland", 1, "LIST" ] ] ]
+},
+{
+  "result": "razor_axe_2",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 5 ] ],
+  "time": "2h",
+  "autolearn": true,
+  "proficiencies": [
+    { "proficiency": "prof_carving" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "CUT", "level": 2 } ],
+  "components": [ [ [ "razor_axe_1", 1], [ "r_chitin_piece", 1 ], [ "basic_strength_gland", 1, "LIST" ], [ "tough_monster_filament", 160, "LIST" ] ] ]
+},
+{
+  "result": "razor_axe_sharp",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "difficulty": 5,
+  "skills_required": [ [ "fabrication", 6 ] ],
+  "time": "2h",
+  "autolearn": true,
+  "proficiencies": [
+    { "proficiency": "prof_carving" },
+    { "proficiency": "prof_chitinworking" },
+    { "proficiency": "prof_bladesmith" }
+  ],
+  "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "CUT", "level": 2 } ],
+  "components": [ [ [ "razor_axe_2", 1], [ "r_chitin_piece", 1 ], [ "moderate_strength_gland", 1, "LIST" ] ] ]
+}
+]
